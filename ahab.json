@@ -1,0 +1,8 @@
+{
+    "ahab": "0.5",
+    "image": "golang:1.16.5-buster",
+    "volumes": [
+        "./:/home/ahab/src"
+    ],
+    "workdir": "/home/ahab/src"
+}
